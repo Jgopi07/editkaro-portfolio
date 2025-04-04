@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Edit<span>Karo.in</span></h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Creative Video Editing & Social Media Marketing</h2>
+    </section>
+
+    <!-- Our Work Section -->
+    <section class="our-work">
+        <h2>Our Work</h2>
+        <div class="filter-buttons">
+            <button onclick="filterVideos('all')">All</button>
+            <button onclick="filterVideos('ads')">Advertisement</button>
+            <button onclick="filterVideos('promo')">Promotional</button>
+            <button onclick="filterVideos('reels')">Reels</button>
+            <button onclick="filterVideos('corporate')">Corporate</button>
+            <button onclick="filterVideos('youtube')">YouTube Edits</button>
+            <button onclick="filterVideos('event')">Event Coverage</button>
+        </div>
+
+        <div class="video-gallery">
+            <div class="video ads"><iframe width="560" height="500" src="https://www.youtube.com/embed/WKeJizbJkLo" frameborder="0" allowfullscreen></iframe>
+Advertisement</div>
+            <div class="video promo"><iframe width="560" height="500" src="https://www.youtube.com/embed/BdRe0Ugy7ts" frameborder="0" allowfullscreen></iframe></iframe>Promotional</div>
+            <div class="video reels"><iframe width="560" height="500" src="https://www.youtube.com/embed/WneTevAxcvs" frameborder="0" allowfullscreen></iframe>Reels</div>
+            <div class="video corporate"><iframe width="560" height="500" src="https://www.youtube.com/embed/MrjDDa85fH0" frameborder="0" allowfullscreen></iframe>Corporate</div>
+            <div class="video youtube"><iframe width="560" height="500" src="https://www.youtube.com/embed/zITg8XRLM5o" frameborder="0" allowfullscreen></iframe>YouTube Edits</div>
+            <div class="video event"><iframe width="560" height="500" src="https://www.youtube.com/embed/90dSeZHA99s" frameborder="0" allowfullscreen></iframe>Event Coverage</div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+            <p id="successMessage" class="hidden">✔ Message Sent Successfully</p>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Connect with us on <a href="https://www.linkedin.com/in/j-gopi-3123302bb">LinkedIn</a> | <a href="https://github.com/Jgopi07/Jgopi07.git">GitHub</a> | <a href="https://jgopi07.github.io/portfolio_project/">Portfolio</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
