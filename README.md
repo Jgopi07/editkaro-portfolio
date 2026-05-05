@@ -61,6 +61,9 @@ git clone https://github.com/Jgopi07/editkaro-portfolio.git
 cd editkaro-portfolio
 
 OUTPUT:
+<img width="1919" height="841" alt="image" src="https://github.com/user-attachments/assets/1036db5e-741d-4f52-b091-6b0d0c29b08e" />
+<img width="1035" height="411" alt="image" src="https://github.com/user-attachments/assets/26801569-4cae-4793-98f6-35e468cf8de5" />
+
 
 ---
 
